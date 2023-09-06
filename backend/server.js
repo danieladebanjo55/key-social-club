@@ -7,7 +7,7 @@ app.use(express.json());
 
 app.use(
   cors({
-    origin: "https://elite-house-eight.vercel.app",
+    origin: "https://key-social-club.vercel.app",
   })
 );
 
@@ -280,8 +280,8 @@ app.post("/create-checkout-session", async (req, res) => {
         ],
       },
       locale: "zh-HK",
-      success_url: "https://elite-house-eight.vercel.app",
-      cancel_url: "https://elite-house-eight.vercel.app",
+      success_url: "https://key-social-club.vercel.app",
+      cancel_url: "https://key-social-club.vercel.app",
     });
 
     res.json({ url: session.url });
