@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.scss";
 import { useRef } from "react";
-import Logo from "./ksc-logo.png";
+import Logo from "./ksc-logo-blue.png";
 
 export default function NavBar() {
   const navRef = useRef();
