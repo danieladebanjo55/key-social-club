@@ -67,7 +67,7 @@
   .package__button {
     cursor: pointer;
     display: flex;
-    background-color: #161616cf;
+    background-color: #3b62ff;
     align-items: center;
     justify-content: center;
     box-shadow: 0 4px 6px #00000074;
@@ -83,8 +83,8 @@
   }
 
   .package__button:hover {
-    box-shadow: 0 4px 6px #6bbbae;
-    background-color: #4e887f;
+    box-shadow: 0 4px 6px #2d2e36;
+    background-color: #3b62ff;
     transition: 0.5s ease;
   }
 }

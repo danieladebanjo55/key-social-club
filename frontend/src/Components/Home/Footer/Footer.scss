@@ -32,5 +32,12 @@
 @media only screen and (max-width: 450px) {
   .footer__content {
     text-align: center;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  p.paragraph {
+    font-size: 15px !important;
   }
 }
